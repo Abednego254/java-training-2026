@@ -1,4 +1,4 @@
-package practiceExersices.javase007;
+package practiceExersices.javase007OOP;
 
 public class BankAccount {
     public String accountNumber;

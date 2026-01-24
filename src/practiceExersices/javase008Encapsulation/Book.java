@@ -1,4 +1,4 @@
-package practiceExersices.javase008;
+package practiceExersices.javase008Encapsulation;
 
 import java.time.LocalDate;
 
@@ -75,6 +75,7 @@ public class Book {
 
     public static void main(String[] args) {
         Book book = new Book("1234567890123", "VUMBA", "Hassan Mwana wa Ali", LocalDate.of(2026, 2, 1));
+        book.borrowBook();
         book.borrowBook();
         book.returnBook();
     }

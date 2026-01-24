@@ -1,4 +1,4 @@
-package practiceExersices.javase008;
+package practiceExersices.javase008Encapsulation;
 
 public class BankAccountWithEncapsulation {
     private String accountHolder;
