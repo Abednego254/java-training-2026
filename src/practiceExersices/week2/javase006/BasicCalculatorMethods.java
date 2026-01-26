@@ -1,4 +1,4 @@
-package practiceExersices.javase006;
+package practiceExersices.week2.javase006;
 
 public class BasicCalculatorMethods {
     public int firstNumber;
