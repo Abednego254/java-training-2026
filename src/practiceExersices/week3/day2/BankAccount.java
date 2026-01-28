@@ -1,4 +1,4 @@
-package week3.day2;
+package practiceExersices.week3.day2;
 
 public class BankAccount {
     private static int totalAccounts = 0;
