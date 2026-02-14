@@ -1,12 +1,8 @@
 package practices.lambda;
 
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.List;
-import java.util.function.Consumer;
-import java.util.function.Function;
-import java.util.function.Predicate;
-import java.util.function.Supplier;
+import java.util.function.*;
 
 public class Student {
     private String name;
@@ -56,9 +52,12 @@ public class Student {
         // Function
         Function<Student, String> nameExtractor = Student::getName;
         Function<Student, Integer> gradeExtractor = Student::getGrade;
+       // BiFunction<Student, >
 
         // Consumer
         Consumer<Student> printer = System.out::println;
+        Consumer<Utility> printerOne = Utility::print;
+
 
         System.out.println("=====ALL STUDENTS=====");
         studentList.forEach(printer);
